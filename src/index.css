@@ -29,3 +29,11 @@ html {
     align-items: center;
     grid-area: main;
 }
+
+.swal2-icon-content {
+    justify-content: center;
+}
+
+.swal2-popup {
+    justify-items: center !important;
+}

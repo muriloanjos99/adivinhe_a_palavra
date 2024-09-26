@@ -251,16 +251,15 @@
         flex-shrink: 0;
         flex-grow: 0;
         background-color: var(--medium-transparent);
-        justify-content: space-evenly;
     }
 
     .line_container {
-        width: 95%;
+        width: 100%;
     }
 
     .letter_container {
-        width: 8vw;
-        height: 8vw;
+        width: 12vw;
+        height: 12vw;
         font-size: 1.3rem;
     }
 

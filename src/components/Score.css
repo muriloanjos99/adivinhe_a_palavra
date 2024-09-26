@@ -16,3 +16,26 @@
 ::-webkit-scrollbar-thumb:hover {
     background: #555;
 }
+
+.score_letter_container {
+    width: 2vw !important;
+    height: 2vw !important;
+    border-radius: 8px !important;
+    box-shadow: 0 2px 5px 2px #a08a73 !important;
+}
+.game_played_word {
+    width: 14vw !important;
+    justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+    .score_letter_container {
+        width: 8vw !important;
+        height: 8vw !important;
+    }
+
+    .game_played_word {
+        width: 45vw !important;
+        justify-content: center;
+    }
+}
